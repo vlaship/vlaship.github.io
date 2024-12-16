@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Title - vlaship</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
+</head>
+<body class="line-numbers">
+    <button class="theme-toggle" aria-label="Toggle dark mode">🌓</button>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><a href="index.html">vlaship</a></h1>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/shipovalov/" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/vlaship/" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container main">
+        <article class="article-content">
+            <div class="article-title">
+                <h1>Article Title</h1>
+                <time datetime="2024-01-01">January 1, 2024</time>
+            </div>
+
+            <div class="article-body">
+                <p>Your article content goes here. This is a sample paragraph that demonstrates how the text will look in your article. You can include multiple paragraphs, code snippets, images, and other content as needed.</p>
+                
+                <h2>Section Heading</h2>
+                <p>This is another paragraph under a section heading. You can organize your content using different heading levels (h2, h3, etc.) to create a clear hierarchy.</p>
+
+                <pre><code class="language-javascript">// Example code block with syntax highlighting
+function example() {
+    const greeting = "Hello, World!";
+    console.log(greeting);
+    return greeting;
+}
+
+// Using async/await
+async function fetchData() {
+    try {
+        const response = await fetch('https://api.example.com/data');
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}</code></pre>
+
+                <p>Here's another example with a different language:</p>
+
+                <pre><code class="language-python"># Python example
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b
+
+# Using list comprehension
+squares = [x**2 for x in range(10)]
+print(f"First 10 square numbers: {squares}")</code></pre>
+
+                <blockquote>
+                    <p>This is how blockquotes will appear in your articles. Great for highlighting important quotes or references.</p>
+                </blockquote>
+            </div>
+        </article>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+</body>
+</html>
